@@ -6,7 +6,8 @@ edition = "2021"
 [dependencies]
 byteorder = "1.5.0"
 crc = "3.2.1"
+serde = { version = "1.0.210", features = ["derive"] }
 
 [[bin]]
-name = "akv_mem"
+name = "kv_rs"
 path = "src/kv-rs.rs"
